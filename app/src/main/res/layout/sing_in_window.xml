@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailField"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="#DAA6A4A4"
+            android:textSize="20sp"
+            android:background="@drawable/edittextdisabl"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passField"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="#DA919191"
+            android:textSize="20sp"
+            android:background="@drawable/edittextdisabl"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:layout_marginBottom="10dp"
+            />
+        <CheckBox
+            android:id="@+id/save_password_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save password"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Swap</string>
+    <string name="app_in_name">Project</string>
+    <string name="app_name_after">Register App</string>
+    <string name="app_bottom_name">Register</string>
+    <string name="btsSingIN">Sing IN</string>
+    <string name="btsRegister">Log In</string>
+    <string name="password">  Password</string>
+    <string name="email">  Email</string>
+    <string name="your_name">  Your name</string>
+    <string name="phone_number">  Phone number</string>
+    <string name="b">B</string>
+    <string name="log_in">Sign up</string>
+    <string name="sign_up">Log in </string>
+    <string name="todo">TODO</string>
+    <string name="register">Register</string>
+    <string name="textview">TextView</string>
+    <string name="category_search" />
+    <string-array name="categories">
+        <item>Одежда</item>
+        <item>Недвижимость</item>
+        <item>Техника</item>
+    </string-array>
+
+
+
+
+</resources>
